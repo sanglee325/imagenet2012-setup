@@ -10,10 +10,10 @@
     tar -xvf ILSVRC2012_img_train.tar -C train
     ```
 
-* Run `train_setup.sh` in `/train` directory.
+* Run `train_setup.sh` in `train/` directory.
     ```bash
-    train
-    ├── n01440764
+    train/
+    ├── n01440764/
     │   ├── n01440764_10026.JPEG
     │   ├── n01440764_10027.JPEG
     │   ├── ...
@@ -29,10 +29,10 @@
     tar -xvf ILSVRC2012_img_val.tar -C val
     ```
 
-* Run `val_setup.sh` in `/val` directory.
+* Run `val_setup.sh` in `val/` directory.
     ```bash
-    val
-    ├── n01440764
+    val/
+    ├── n01440764/
     │   ├── ILSVRC2012_val_00000293.JPEG 
     │   ├── ILSVRC2012_val_00002138.JPEG
     │   ├── ...
